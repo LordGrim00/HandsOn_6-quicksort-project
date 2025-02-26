@@ -19,39 +19,39 @@ This project implements two versions of the quicksort algorithm (non-random and 
 The following results were obtained from running the Quicksort benchmarks for different input sizes. The times are measured in milliseconds (ms) for each case:
 
 ```plaintext
-Best Case (n=100): 0.000000ms
-Worst Case (n=100): 0.000000ms
-Average Case (n=100): 0.000000ms
+Best Case (n=100): 0.155926ms
+Worst Case (n=100): 0.174999ms
+Average Case (n=100): 0.158072ms
 
-Best Case (n=500): 10.731220ms
-Worst Case (n=500): 0.504732ms
-Average Case (n=500): 0.000000ms
+Best Case (n=500): 1.842260ms
+Worst Case (n=500): 1.221895ms
+Average Case (n=500): 1.496792ms
 
-Best Case (n=1000): 3.248692ms
-Worst Case (n=1000): 2.505541ms
-Average Case (n=1000): 0.978708ms
+Best Case (n=1000): 2.285242ms
+Worst Case (n=1000): 5.660057ms
+Average Case (n=1000): 2.410889ms
 
-Best Case (n=5000): 3.257275ms
-Worst Case (n=5000): 19.475698ms
-Average Case (n=5000): 12.760878ms
+Best Case (n=5000): 49.762011ms
+Worst Case (n=5000): 27.763367ms
+Average Case (n=5000): 20.917892ms
 
-Best Case (n=10000): 17.378807ms
-Worst Case (n=10000): 73.850632ms
-Average Case (n=10000): 65.176487ms
+Best Case (n=10000): 36.962032ms
+Worst Case (n=10000): 56.139946ms
+Average Case (n=10000): 52.241087ms
 ```
 
-![Graph](https://github.com/user-attachments/assets/213a42df-0b21-42c0-9fc0-d2d5a78d24c9)
+![Graph](https://github.com/user-attachments/assets/7ce9a38f-94fd-477f-9b7b-c4dda03714a2)
 
 ## System Information
 
 The benchmarks were run on the following system configuration:
 
 ```plaintext
-Platform: Windows 10
-Processor: Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
-RAM: 7.86 GB
-Python Version: 3.10.5
-ROM: 500.00 GB
+Platform: Darwin 20.6.0
+Processor: i386
+RAM: 8.00 GB
+Python Version: 3.8.9
+ROM: 465.57 GB
 ```
 
 ## Deriving the Average Case Time Complexity for Non-Random Quicksort
